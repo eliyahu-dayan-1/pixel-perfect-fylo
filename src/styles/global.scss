@@ -1,0 +1,31 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/icons.scss";
+@import "basics/links.scss";
+@import "basics/buttons.scss";
+
+// Components
+@import "cmps/navBar.scss";
+@import "cmps/sec1.scss";
+@import "cmps/sec2.scss";
+@import "cmps/sec3.scss";
+@import "cmps/footer.scss";
+
+// Pages
+
+@import "views/home-page.scss";
+
+.app-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $clr1;
+    color: $clr6;
+}

@@ -1,0 +1,21 @@
+.sec3 {
+    margin: 0 154px 0 105px 0;
+
+    .desc {
+        margin-top: 105px;
+
+        .header {
+            font-family: Raleway;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .txt {
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-weight: 400;
+        }
+        a {
+            color: $clr3;
+        }
+    }
+}

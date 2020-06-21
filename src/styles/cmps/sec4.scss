@@ -1,0 +1,22 @@
+.sec4{
+    .header{
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .txt{
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    
+    input, button{
+        width: 280px;
+        height: 48px;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 24px;
+        color: $clr3;
+    }
+}

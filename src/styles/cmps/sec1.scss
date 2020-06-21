@@ -1,0 +1,43 @@
+.sec1 {
+    padding: 0 360px;
+    padding-bottom: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    > * {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    > *:not(:last-child) {
+        margin-bottom: 35px;
+    }
+
+    .pepolewithfile-icon {
+        width: 720px;
+    }
+
+    .header {
+        font-family: "Raleway";
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .txt {
+        font-family: "Open-Sans-Regular";
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 66px;
+    }
+    .button {
+        padding: 0 220px;
+        width: 280px;
+        height: 56px;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 28px;
+        background-image: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+    }
+}

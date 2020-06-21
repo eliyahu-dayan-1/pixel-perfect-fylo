@@ -1,0 +1,37 @@
+.sec2 {
+    margin: 0 280px 137px 280px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 149px;
+    row-gap: 79px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .icon {
+        width: 104px;
+    }
+
+    .header {
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .txt {
+        width: 349px;
+        height: 62px;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

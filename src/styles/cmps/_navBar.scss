@@ -1,0 +1,21 @@
+.nav-content-wrapper {
+    margin: 0 80px;
+
+    .logo {
+        
+    }
+
+    .links {
+        > * {
+            padding-top: 90px;
+            padding-bottom: 75px;
+        }
+        > *:not(last-child) {
+            padding-right: 24px;
+        }
+
+        > *:not(first-child) {
+            padding-left: 24px;
+        }
+    }
+}
